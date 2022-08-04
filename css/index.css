@@ -26,8 +26,8 @@
     display: inline-block;
     margin: 6px 0px 5px 20px;
     padding: 2.5px 2.5px 2.5px 2.5px;
-    color: white;
-    background-color: rgb(0, 38, 255);
+    color: rgb(0, 0, 0);
+    background-color: white;
     height: 40px;
     width: 210px;
     text-align: center;
@@ -50,7 +50,7 @@
     font-weight: 600; }
   
   .nav > .nav-links > a:hover {
-    background-color: rgb(51, 51, 245);
+    background-color: rgb(201, 21, 21);
   color: white }
   
   .nav > #nav-check {
@@ -190,7 +190,7 @@
     top: 20px;
     height: 700px;
     width: 100% auto;
-    background: linear-gradient(#372dfd, #6058ff);
+    background: linear-gradient(#000000, #000e5e);
     display: grid;
     grid-template-columns: 20% 50% 20%;
     grid-template-rows: 40% 40%;
@@ -247,8 +247,7 @@
       align-self: center;
       text-align: center;
       font-size: 30px;
-      font-weight: 800;
-      text-shadow: 2px 2px 0px blue, 4px 4px 0px rgb(44, 132, 214); }
+      font-weight: 800;}
     .header2_Parrafo2 {
       grid-area: a4;
       height: 100%;
@@ -494,8 +493,7 @@
     align-self: center;
     text-align: left;
     font-size: 40px;
-    font-weight: 800;
-    text-shadow: 2px 2px 0px blue, 4px 4px 0px rgb(44, 132, 214); }
+    font-weight: 800;}
   
   #AcercaDeImg1 {
     grid-area: a1;
@@ -751,8 +749,7 @@
     height: 50px;
     line-height: 150px;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 800;
-    text-shadow: 2.5px 2.5px 0px #119d88, 5px 5px 0px #0015ff; }
+    font-weight: 800;}
   
   .pBlog1 {
     color: black;
@@ -995,8 +992,7 @@
     line-height: 150px;
     color: black;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 800;
-    text-shadow: 2.5px 2.5px 0px #0015ff, 5px 5px 0px #1294cd; }
+    font-weight: 800;}
   
   #bodyServicios {
     height: 1000px;
@@ -1247,7 +1243,6 @@
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;
-    text-shadow: 2.5px 2.5px 0px #0088ff, 5px 5px 0px #26b2d8;
     justify-self: center;
     align-self: center; }
   
