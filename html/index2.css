@@ -1,0 +1,10 @@
+
+
+#boton{
+    height: 100px;
+    width: 300px;
+    justify-self:center;
+    align-self: center;
+    display: block;
+}
+
