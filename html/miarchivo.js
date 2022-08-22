@@ -70,31 +70,17 @@ let carrito=[];
 mostrarProducto();
 
 function mostrarProducto(){for (const calceta of calcetas){
-    document.getElementById("productos").innerHTML+=`
-                <tr>
-            <th scope="row">
-                <p> ${calceta.producto} </p>
-            </th>
-
-            <th>
-                <p> ${calceta.marca} </p>
-            </th>
-                
-            <th>
-                <p>$${calceta.precio}</p>
-            </th>
-            
-            <th>
-                <img src=${calceta.img} width="150" height="150"    >
-            </th>
-
-            <th>
-                <button id="boton${calceta.id}">Agregar al carrito</button>
-            </th>
-    
-        </tr>
+    document.getElementById("1").innerHTML+=`
+    <li class="col-sm-3 list-group-item">
+        <h3>${calceta.producto}</h3>
+        <img src=${calceta.img} width="150" height="150">
+        <p> ${calceta.marca} </p>
+        <p>$${calceta.precio}</p>
+        <button id="boton${calceta.id}">Agregar al carrito</button>
+    </li>
+    <br>
         `
-            };
+        }
         
 
         calcetas.forEach(calceta => {
